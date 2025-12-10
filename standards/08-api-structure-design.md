@@ -62,4 +62,3 @@ src/
 - เพิ่ม resource ใหม่ให้มีทั้ง `GET`/`POST` (หรือ verbs ที่ตรงกับ use case) พร้อม validation ที่ middleware
 - ทุก endpoint ควร log ด้วย `logger` และเคารพ `transactionId` สำหรับการติดตาม
 - อย่าลืม block health-check ใน APM เพื่อลด noise และรักษา JSON logging format เดิม
-
